@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Keshavkumar — Product Leader, Banking, Payments & AI</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f6f7fb;--card:#fff;--ink:#0d1b2a;--mute:#5b6b7f;--line:#dfe4ee;--acc:#b8892b;--acc2:#1f5fbf;--hero:linear-gradient(135deg,#0d1b2a,#16365f)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a121d;--card:#111d2d;--ink:#eaf0f8;--mute:#93a3b8;--line:#22344d;--acc:#e0b04f;--acc2:#6aa2ff}}
+:root[data-theme="dark"]{--bg:#0a121d;--card:#111d2d;--ink:#eaf0f8;--mute:#93a3b8;--line:#22344d;--acc:#e0b04f;--acc2:#6aa2ff}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.2;margin:0}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;display:flex;gap:18px;align-items:center;padding:12px 5vw;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);overflow-x:auto;white-space:nowrap}
+nav b{font-family:Georgia,serif;color:var(--acc);margin-right:auto}
+nav a{color:var(--mute);text-decoration:none;font-size:14px}nav a:hover{color:var(--acc)}
+button{font:inherit;cursor:pointer}
+.tb{background:none;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:4px 10px;font-size:13px}
+header{background:var(--hero);color:#fff;padding:80px 5vw 70px;position:relative;overflow:hidden}
+header:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% 20%,rgba(224,176,79,.25),transparent 45%),radial-gradient(circle at 10% 90%,rgba(106,162,255,.2),transparent 40%)}
+.w{max-width:1000px;margin:0 auto;position:relative}
+.kick{color:#e0b04f;letter-spacing:.15em;font-size:13px;text-transform:uppercase}
+h1{font-size:clamp(38px,7vw,72px);margin:10px 0}
+.tag{font-size:clamp(16px,2.4vw,22px);opacity:.92;max-width:680px}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0}
+.pills span{border:1px solid rgba(255,255,255,.3);border-radius:99px;padding:4px 14px;font-size:14px}
+.cta a{display:inline-block;margin:6px 10px 0 0;padding:11px 22px;border-radius:10px;text-decoration:none;font-weight:600;background:#e0b04f;color:#0d1b2a}
+.cta a.g{background:none;color:#fff;border:1px solid rgba(255,255,255,.4)}
+section{padding:64px 5vw}
+h2{font-size:clamp(26px,4vw,38px);margin-bottom:6px}h2+p{color:var(--mute);margin:0 0 28px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:-40px;position:relative;z-index:2}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;text-align:center;box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.stat b{display:block;font:700 36px Georgia,serif;color:var(--acc)}.stat small{color:var(--mute)}
+.rv{opacity:0;transform:translateY(22px);transition:.7s}.rv.in{opacity:1;transform:none}
+/* timeline */
+.tl{overflow-x:auto;padding:30px 0 10px}
+.track{position:relative;display:flex;gap:0;min-width:max-content;padding-top:6px}
+.track:before{content:"";position:absolute;left:0;right:0;top:46px;height:4px;border-radius:4px;background:linear-gradient(90deg,var(--acc2),var(--acc))}
+.ev{flex:1;min-width:160px;text-align:center;padding:0 8px;cursor:pointer}
+.ev i{display:block;font-style:normal;font-size:26px;white-space:nowrap;height:40px}
+.ev u{display:block;width:16px;height:16px;border-radius:50%;background:var(--card);border:4px solid var(--acc);margin:6px auto 12px;position:relative;text-decoration:none;transition:.3s}
+.ev:hover u,.ev.on u{transform:scale(1.5);background:var(--acc)}
+.ev b{color:var(--acc);font-size:14px}.ev div{font-size:13px;color:var(--mute)}
+.evd{margin-top:16px;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:10px;padding:16px}
+.impact{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;margin-top:-40px;position:relative;z-index:2;box-shadow:0 10px 30px rgba(0,0,0,.1)}
+.impact h3{font-size:22px}.impact p{margin:2px 0 16px;color:var(--mute);font-size:14px}
+.stats{margin-top:0!important}.stat{background:none!important;border:none!important;box-shadow:none!important;text-align:left!important;border-left:3px solid var(--acc)!important;border-radius:0!important;padding:2px 14px!important}
+.dom{border-radius:16px}.dom>summary{padding:18px 20px}
+.dom .ic{font-size:28px;width:54px;height:54px;display:grid;place-items:center;border-radius:14px;background:linear-gradient(135deg,var(--acc2),var(--acc));flex:none}
+.dom summary strong{font-size:22px}.dom summary small{color:var(--mute);font-size:13px}
+.seg,.caps{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;padding:0 18px 14px}
+.segc{border:1px solid var(--line);border-left:4px solid var(--acc2);border-radius:10px;padding:12px 14px;font-size:14px;color:var(--mute)}.segc b{color:var(--ink);display:block;font-family:Georgia,serif;font-size:16px}
+.caps details.cap{margin:0;transition:.25s}.caps details.cap:hover{transform:translateY(-3px);border-color:var(--acc)}
+.cap summary{padding:12px 14px}.cap summary strong{font-size:16px}.cap .ci{font-size:22px}
+.cb{padding:0 14px 14px;color:var(--mute);font-size:14px}.cb small{display:block;margin-top:6px;color:var(--acc)}
+/* tree */
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:10px 0;overflow:hidden;transition:.2s}
+details[open]{box-shadow:0 6px 20px rgba(0,0,0,.06)}
+details details{margin:8px 12px;background:transparent}
+summary{cursor:pointer;padding:14px 18px;list-style:none;display:flex;gap:12px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary:before{content:"›";color:var(--acc);font-size:24px;transition:.2s;line-height:1}
+details[open]>summary:before{transform:rotate(90deg)}
+summary strong{font-family:Georgia,serif;font-size:18px}summary em{margin-left:auto;color:var(--mute);font-size:13px;font-style:normal;text-align:right}
+.body{padding:0 18px 14px 44px;color:var(--mute)}
+.body .ph{border:1px dashed var(--acc);border-radius:8px;padding:8px 12px;font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.chips span{background:color-mix(in srgb,var(--acc2) 14%,transparent);color:var(--acc2);border-radius:6px;padding:2px 10px;font-size:13px}
+.tools{display:flex;gap:10px;margin-bottom:10px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.hob{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px}
+.hob div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 8px;text-align:center;transition:.25s}
+.hob div:hover{transform:translateY(-5px) rotate(-1deg);border-color:var(--acc)}
+.hob i{display:block;font-style:normal;font-size:32px}
+footer{text-align:center;padding:40px 5vw;color:var(--mute);border-top:1px solid var(--line)}
+a{color:var(--acc2)}
+@media print{nav,.tools,.cta,.tb{display:none}details>*{display:block!important}header{background:#fff!important;color:#000}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<nav><b id="nb"></b><a href="#journey">Journey</a><a href="#expertise">Expertise</a><a href="#companies">Companies</a><a href="#edu">Credentials</a><a href="#beyond">Beyond Work</a><a href="#contact">Contact</a><button class="tb" id="th">◐ Theme</button></nav>
+<header><div class="w">
+<div class="kick" id="kick"></div><h1 id="nm"></h1><p class="tag" id="tg"></p>
+<div class="pills" id="pl"></div><p class="tag" id="sub" style="font-size:15px;opacity:.8;margin:0 0 18px"></p>
+<div class="cta"><a href="#companies">Explore my work</a><a class="g" href="#contact">Get in touch</a><a class="g" href="#" onclick="print();return false">Save as PDF</a></div>
+</div></header>
+<section style="padding-top:0"><div class="w"><div class="impact"><h3>Impact at a glance</h3><p>Results delivered across banking and enterprise platforms.</p><div class="stats" id="st"></div></div></div></section>
+
+<section id="journey"><div class="w rv"><h2>The Journey</h2><p>Click a milestone to explore.</p>
+<div class="tl"><div class="track" id="tk"></div></div><div class="evd" id="ed"></div></div></section>
+
+<section id="expertise"><div class="w rv"><h2>Domain Expertise</h2><p>Banking is my core, with adjacent domains beside it. Expand any card to go deeper.</p>
+<div class="tools"><button class="tb" onclick="tg('#ex',1)">Expand all</button><button class="tb" onclick="tg('#ex',0)">Collapse all</button></div>
+<div id="ex"></div></div></section>
+
+<section id="companies"><div class="w rv"><h2>Companies &amp; Projects</h2><p>Company → client → what I actually did. Keep drilling down.</p>
+<div class="tools"><button class="tb" onclick="tg('#co',1)">Expand all</button><button class="tb" onclick="tg('#co',0)">Collapse all</button></div>
+<div id="co"></div></div></section>
+
+<section id="edu"><div class="w rv"><h2>Education, Certifications &amp; Skills</h2><p>Continuous learning across product, agile, cloud and AI.</p><div class="two" id="ed2"></div><h3 style="margin:28px 0 12px">Certifications</h3><div class="two" id="ce"></div><h3 style="margin:28px 0 4px">Skills &amp; tools</h3><div id="sk"></div></div></section>
+<section id="beyond"><div class="w rv"><h2>Beyond Work</h2><p>The person behind the profile.</p><div class="hob" id="hb"></div></div></section>
+<section id="contact"><div class="w rv"><h2>Let's Connect</h2><p id="ct"></p><div class="two" id="cc"></div></div></section>
+<footer id="ft"></footer>
+
+<script>
+/* ============ EDIT ONLY THIS BLOCK TO UPDATE THE SITE ============
+   Nodes: {t:title, m:meta (dates/place), d:description, tags:[...], c:[children...]}
+   Children can nest as deep as you like. */
+const D={
+ name:"Keshavkumar",
+ kicker:"Product Leader • Banking, Payments & Digital Channels • AI",
+ tagline:"I turn complex banking platforms into products people actually use. Sixteen years across ATMs and ITMs, cards and payments, digital branches, CRM and core banking, delivered for banks in India, South Africa and the UAE. AI is now my newest tool for building them faster and safer.",
+ pills:["Cards & Payments","ATM / ITM & Self-Service","Digital Branches","CRM & Core Banking","Regulatory-first Delivery","GenAI & Agentic AI"],
+ sub:"Certified SAFe Product Owner/Product Manager and Scrum Master. Worked with banks across India, South Africa and the UAE.",
+ stats:[[10,"$","M+","Annual savings delivered"],[35,"","%","Lower contact-centre load"],[50,"","%","Faster service turnaround"],[40,"","%","Faster query resolution"],[25,"","%","Delivery improvement"],[16,"","+","Years in banking & tech"],[3,"","","Countries worked in"]],
+ email:"Keshav.k999@gmail.com",
+ phone:"+91 9373552913",
+ linkedin:"https://www.linkedin.com/in/keshav999/",
+ journey:[
+  {i:"🇮🇳🎓",y:"Apr 2004 – Jul 2008",l:"Bengaluru, India",t:"BE in IT, MS Ramaiah Institute of Technology",d:"Internship at the Indian Institute of Science (Dec 2007 – Jun 2008) on Mobile Ad Hoc Networks."},
+  {i:"🇮🇳💼",y:"Sep 2008 – Sep 2009",l:"Chennai, India",t:"Consultant, Sutherland",d:"Technical support for Dell XPS laptops, desktops, operating systems and enterprise applications."},
+  {i:"🇮🇳🎓",y:"Feb – Aug 2010",l:"Bengaluru, India",t:"PG Diploma in Advanced Computing, CDAC ACTS",d:"Advanced computing studies."},
+  {i:"🇮🇳💼",y:"Sep 2010 – Apr 2011",l:"Hyderabad, India",t:"Programmer, EPAM Systems (Alliance Global Services)",d:"Retail and procurement web applications for US clients Sears, TGI and McDonald's."},
+  {i:"🇮🇳💼",y:"Apr 2011 – Jun 2013",l:"Hyderabad, India",t:"Software Engineer, NCR Voyix R&D",d:"Core member of the APTRA Activate NAMER platform team, building ATM/ITM solutions for global banks."},
+  {i:"🇿🇦💼",y:"Sep 2013 – Nov 2016",l:"South Africa",t:"Solution Architect, Bytes Managed Solution (Prodapt)",d:"Led NCR ATM/ITM/kiosk delivery for Nedbank, Capitec, Standard Bank, FNB and ABSA, managing 30+ people."},
+  {i:"🇦🇪💼",y:"Dec 2016 – Aug 2018",l:"Dubai, UAE",t:"Emirates NBD (via Virtusa)",d:"Solution Architect and Engineering Manager: ATM/ITM/Cards & Payments roadmap and Nano-branch transformation."},
+  {i:"🇦🇪💼",y:"Sep 2018 – Oct 2019",l:"Dubai, UAE (HSBC UK & BAM clients)",t:"HSBC (via Virtusa)",d:"Product Owner for core banking migration from IBM to BPC using ISO 20022."},
+  {i:"🇦🇪💼",y:"Oct 2019 – Feb 2024",l:"Abu Dhabi, UAE",t:"Abu Dhabi Islamic Bank (via Virtusa)",d:"Product Owner, promoted to Product Manager. First CRM platform, $10M+ annual savings, GenAI chatbot."},
+  {i:"🇦🇪💼",y:"Feb 2024 – Mar 2025",l:"Dubai, UAE",t:"CBD Bank (via Virtusa)",d:"Product Governance Manager: Calypso, WCAS, Vendor CR Portal and GenAI controls."},
+  {i:"🇦🇪💼",y:"Mar – Jul 2025",l:"Ajman, UAE",t:"Technical Product Manager, Ajman Bank (Dautom)",d:"GenAI avatar assistant HOLOBOX for branches, with AI governance."},
+  {i:"🇮🇳💼",y:"Jan 2026 – Present",l:"Pune, India",t:"AI Senior Product Manager, Publicis Re:sources",d:"MAIA: agentic AI platform for Publicis Media's media buying, in partnership with McKinsey."}
+ ],
+ domains:[
+  {i:"🏦",t:"Banking",s:"Retail & Corporate",open:1,
+   seg:[["Retail Banking","Individual customer banking: branches, ATM/ITM, cards, online and mobile banking and CRM at ADIB, Emirates NBD, HSBC and South African banks."],["Corporate Banking","Corporate and institutional programmes, including CBD Bank platforms such as Calypso, WCAS, Vendor CR Portal and ADX integrations."]],
+   caps:[
+   {i:"🏧",t:"ATM",d:"NCR APTRA Activate and Vision, NDC and ISO 8583 host integration, cash recycling and auto-reconciliation. From NCR R&D to bank product ownership.",tags:["NCR","APTRA","Cash recycling"],at:"NCR · Bytes/Prodapt · Emirates NBD · HSBC"},
+   {i:"🖥",t:"ITM",d:"Interactive Teller Machines end to end: Nedbank ITM and Universal Banker design, dual-screen and remote-teller innovation, Emirates NBD ITM delivery, GenAI-enabled ITM at Ajman Bank.",tags:["ITM","Remote teller"],at:"NCR · Bytes/Prodapt · Emirates NBD · Ajman Bank"},
+   {i:"💳",t:"Cards & Payments",d:"Card and payment flows across channels, PIN mailer migration, QR-based payment workflows, ISO 20022 and SWIFT switch integration.",tags:["ISO 8583","ISO 20022","SWIFT"],at:"Emirates NBD · HSBC · ADIB"},
+   {i:"🚀",t:"Digital Transformation",d:"Paperless operations and digital reconciliation across CRM, BPM, ICCS, Ambit and ATM channels, saving $10M+ annually.",tags:["Paperless","Reconciliation"],at:"ADIB"},
+   {i:"🏬",t:"Branch Transformation",d:"Nano-branch with Open APIs and microservices; branch digitisation; GenAI avatar assistant HOLOBOX for 24x7 multilingual service.",tags:["Nano-branch","HOLOBOX"],at:"Emirates NBD · ADIB · Ajman Bank"},
+   {i:"🤝",t:"CRM",d:"ADIB's first CRM (CRMNext), then migration to Microsoft Dynamics 365 CRM with core-banking integration; Siebel CRM at Emirates NBD.",tags:["CRMNext","Dynamics 365","Siebel"],at:"ADIB · Emirates NBD"},
+   {i:"🌐",t:"Online Banking",d:"Online banking journeys, workflows and compliance controls, including the Central Bank directive freeze solution across online and other channels.",tags:["Digital channels"],at:"ADIB"},
+   {i:"📱",t:"Mobile Banking",d:"Mobile banking product ownership and integration with CRM, middleware and core; GenAI chatbot strategy across mobile and branch channels.",tags:["Mobile","Omnichannel"],at:"ADIB · Ajman Bank"},
+   {i:"🏛",t:"Core Banking & Migration",d:"HSBC UK core migration from IBM to BPC, ADIB core systems (Ambit), Emirates NBD Finacle integration.",tags:["BPC","Ambit","Finacle"],at:"HSBC · ADIB · Emirates NBD"},
+   {i:"🛡",t:"Compliance & Governance",d:"Central Bank and court-directive freeze of suspicious transactions across all payment channels, AML/KYC, CBUAE-aligned AI governance, vendor governance.",tags:["CBUAE","AML/KYC","PCI DSS"],at:"ADIB · Ajman Bank · CBD Bank"},
+   {i:"🤖",t:"AI Transformation",d:"Omnichannel GenAI chatbot and LLM copilots at ADIB (35% lower contact-centre load), HOLOBOX at Ajman Bank, GenAI controls at CBD Bank.",tags:["GenAI","LLM copilots","AI governance"],at:"ADIB · Ajman Bank · CBD Bank"}]},
+  {i:"🛒",t:"Retail",s:"Retail & procurement applications",caps:[{i:"🛍",t:"Retail & procurement applications",d:"Development, testing and maintenance of web applications for US clients Sears, TGI and McDonald's, including QA and database procedures.",tags:["Web apps","QA"],at:"EPAM Systems (Alliance Global Services)"}]},
+  {i:"📺",t:"Media",s:"AI-driven media buying",caps:[{i:"🎯",t:"Media buying platform (MAIA)",d:"Agentic AI platform for Publicis Media: Prisma-to-vendor data pipeline across 14+ vendor/DSP systems, approval workflows and enterprise RBAC governance.",tags:["Agentic AI","Azure"],at:"Publicis Re:sources"}]},
+  {i:"👛",t:"Digital Wallets",s:"Wallet products",caps:[{i:"💠",t:"Digital wallet products",d:"Details to add: products, scope and outcomes.",tags:[],at:""}]}
+ ],
+ companies:[
+  {t:"Publicis Re:sources",m:"AI Senior Product Manager · Jan 2026 – Present · Pune",d:"Enterprise AI transformation of Publicis Media's media buying.",tags:["Agentic AI","Azure","Agile"],c:[
+   {t:"MAIA transformation",d:"Led the Agile AI-driven transformation of media buying into MAIA, a McKinsey US-partnered platform replacing manual re-keying of insertion-order data from Prisma into 14+ vendor/DSP systems with agentic AI extraction, mapping and validation."},
+   {t:"End-to-end product ownership",d:"Prisma-to-vendor data pipeline, agentic field extraction, approval/revision workflows, CapSure validation, Direct IO and Programmatic Guaranteed buying, deployed on Azure behind an enterprise API Hub."},
+   {t:"Vendor integrations & pilot",d:"Meta, Google, DV360, TikTok, Amazon DSP, Bing, Pinterest, Walmart, Criteo, The Trade Desk and more, toward a 15-vendor target. 26-week pilot across 8 US client accounts with a cross-functional org of 25+ (FE, BE, Integration, AI, Data, QA)."},
+   {t:"RBAC governance",d:"Enterprise RBAC mirroring Prisma entitlements (44 roles) via Entra, JWT and scope tables, with RPA/ADF automation of about 50–80 daily user updates. Single auditable workspace targeting 60–80% AI accuracy and freeing buyer capacity."},
+   {t:"Agile & stakeholder leadership",d:"Sprint planning, demos and executive status reporting; chaired the weekly Publicis–McKinsey PO Connect; resolved cross-team dependencies and data-readiness blockers."}]},
+  {t:"Ajman Bank (Dautom)",m:"Technical Product Manager · Mar – Jul 2025 · Ajman, UAE",d:"GenAI-powered digital transformation of bank branches.",tags:["GPT-4","Voice/Video AI","CBUAE"],c:[
+   {t:"HOLOBOX avatar assistant",d:"Avatar-based conversational assistant using GPT-4 and voice/video AI for 24x7 multilingual customer service."},
+   {t:"Product strategy",d:"End-to-end strategy for GenAI chatbot and ITM integration, aligned with regulatory, compliance and CX objectives across mobile and branch channels."},
+   {t:"AI governance",d:"Governance frameworks and risk controls aligned with CBUAE, GDPR and CCPA, reducing regulatory and legal risk of GenAI deployments."},
+   {t:"LLM iteration",d:"Worked with AI/ML teams on LLM prompts, fallback intents and feedback loops for real-time model iteration via Azure DevOps pipelines."},
+   {t:"Branch workflow automation",d:"Automated FAQs, onboarding support and card status checks, improving customer query resolution speed by 40% and reducing live-agent dependency."}]},
+  {t:"Virtusa Consulting Services",m:"Product Owner / Product Manager · Dec 2016 – Mar 2025 · Dubai & Abu Dhabi",d:"8+ years across four banks. Progressed from Product Owner to Product Manager to Product Governance, covering digital banking, core banking, payments, CRM, ATM/ITM and AI.",c:[
+   {t:"CBD Bank",m:"Product Governance Manager · Feb 2024 – Mar 2025 · Dubai",tags:["Calypso","WCAS","ADX","Azure DevOps"],c:[
+    {t:"Governance & delivery",d:"Governed backlog refinement, requirements and delivery of Calypso, WCAS and Vendor CR Portal supporting ADX integrations, with 20% faster delivery."},
+    {t:"AI model controls",d:"Managed technical controls for AI model development and established monitoring for GenAI anomalies."},
+    {t:"API & data work",d:"Defined integration points, validated REST API payloads and error handling in Postman, and reviewed SQL Server stored procedures for ADX integration logic and source-to-target mapping."},
+    {t:"Traceability",d:"Used Azure DevOps for epics, stories and bugs, linking technical documentation to sprints."}]},
+   {t:"Abu Dhabi Islamic Bank",m:"Product Owner → Product Manager · Oct 2019 – Feb 2024 · Abu Dhabi",tags:["Ambit","CRMNext","Dynamics 365","Jira"],c:[
+    {t:"Digital transformation",d:"Promoted from Product Owner to Product Manager, driving branch digitisation, paperless operations and new customer services across Ambit, Cards & Payments, ICCS, CRM, online/mobile banking and GenAI."},
+    {t:"Backlog ownership",d:"Owned and prioritised the backlog end to end in Jira across multiple workstreams, with velocity tracking and leadership dashboards."},
+    {t:"Velocity recovery",d:"Recovered a 20% velocity drop with joint weekly refinement with QA and Devs, raising delivery by 25% within two sprints."},
+    {t:"First CRM platform",d:"Implemented the bank's first CRM (CRMNext): onboarding, lead generation, channel integration (housing/auto finance, complaints), data migration, AML/KYC and compliance. Then led migration to Microsoft Dynamics 365 CRM."},
+    {t:"$10M+ annual savings",d:"QR-based workflows, SMS alerts and digital reconciliation across CRM, BPM, ICCS, Ambit and ATM channels with middleware and core integration."},
+    {t:"Regulatory freeze solution",d:"Central Bank and court-directive solution to freeze suspicious transactions by Emirates ID/passport across Mobile, Online, ATM/ITM, middleware and core, without alerting customers."},
+    {t:"GenAI chatbot & copilots",d:"Led design of an omnichannel GenAI chatbot and LLM copilots integrated with CRM: intent handling, auto-resolution and case prioritisation. Contact-centre load down 35%, service TAT 50% faster in pilot departments."}]},
+   {t:"HSBC (UK and BAM clients)",m:"Product Owner · Sep 2018 – Oct 2019",tags:["ISO 20022","BPC","Azure DevOps"],c:[
+    {t:"Core banking migration",d:"Product Owner for HSBC UK's move from IBM to BPC across regions using ISO 20022, with minimal customer impact."},
+    {t:"PIN Mailer Printer migration",d:"Owned the backlog, designed for UK business rules and regulation, authored BRDs and user stories and reviewed FSDs. Recognised by UK stakeholders."},
+    {t:"Cash Recycling System for KAL",d:"Integrated the Kalignite K3A ATM application with the BAM region (Bermuda, Armenia, Malta) core migration; solution designed in MS Visio."},
+    {t:"Delivery",d:"Managed migration in Azure DevOps and coordinated .NET, JS and Java teams, vendors and regional operations to deliver on time and budget."}]},
+   {t:"Emirates NBD",m:"Solution Architect & Engineering Manager · Dec 2016 – Aug 2018 · Dubai",tags:["NCR APTRA","Finacle","Siebel","TIBCO"],c:[
+    {t:"ATM/ITM/Cards roadmap",d:"Owned the ATM/ITM/Cards-Payments roadmap across dual reporting lines, leading in-house programmes and NCR ATM operations; drove ITM delivery via Azure DevOps. Recognised for transforming customer experience."},
+    {t:"Nano-branch transformation",d:"Led a cross-functional Scrum team integrating Open APIs, microservices, Siebel CRM, Palmaris, Avaya, TIBCO, BPM and Finacle core with SWIFT/FTS switch."},
+    {t:"APTRA implementation",d:"Implemented NCR APTRA Activate and APTRA Vision monitoring with dual flows via NI Switch and microservices; defined .NET Open APIs for onboarding and card issuance."},
+    {t:"Vendor governance",d:"Led governance across NCR and Diebold, approved FSDs and HLDs, coordinated code handovers and reported to senior management."}]}]},
+  {t:"Bytes Managed Solution (Prodapt)",m:"Solution Architect & Professional Services Lead · Sep 2013 – Nov 2016 · South Africa",tags:["NCR ATM/ITM","ISO 8583","NDC"],c:[
+   {t:"Delivery leadership",d:"Led NCR ATM/ITM/kiosk delivery for Nedbank, Capitec, Standard Bank, FNB and ABSA, managing 30+ people across development, QA and integration."},
+   {t:"Innovative solutions",d:"First-time cash recycling, auto-reconciliation, auto cash-balancing and proactive issue reporting, with APTRA Activate, Vision, ITMs and recyclers integrated via NDC, ISO 8583 and SWIFT switch."},
+   {t:"Nedbank ITM & Universal Banker",d:"Designed both products. Top performer for three consecutive years."}]},
+  {t:"NCR Voyix Corporation R&D",m:"Software Engineer · Apr 2011 – Jun 2013 · Hyderabad",tags:[".NET","Core Java","WPF","EMV"],c:[
+   {t:"APTRA Activate NAMER",d:"Full-lifecycle design and development of next-generation ATM/ITM solutions for Bank of America and Nedbank."},
+   {t:"Host integration & EMV",d:"Host integration via ISO 8583 and NDC over TCP/IP; EMV-compliant custom ATM applications."},
+   {t:"ITM innovation team",d:"Dual-screen flows, remote teller and U-Genius video integration."}]},
+  {t:"EPAM Systems (Alliance Global Services)",m:"Programmer · Sep 2010 – Apr 2011 · Hyderabad",d:"Development, testing and maintenance of retail and procurement web applications for US clients Sears, TGI and McDonald's, including QA, coding standards and database procedures."},
+  {t:"Sutherland",m:"Consultant · Sep 2008 – Sep 2009 · Chennai",d:"Technical support for Dell XPS laptops, desktops, operating systems and enterprise applications; resolved hardware, software, network and malware issues."}
+ ],
+ edu:[["PG Diploma in Advanced Computing","CDAC ACTS, Bangalore · Feb – Aug 2010"],["BE in IT","M. S. Ramaiah Institute of Technology, Bangalore · Apr 2004 – Jul 2008"],["Internship: Mobile Ad Hoc Network","Indian Institute of Science, Bangalore · Dec 2007 – Jun 2008"]],
+ certs:[["Product Owner Product Manager (POPM)","SAFe · May 2022"],["Professional Scrum Master (PSM)","Scrum.org · Apr 2020"],["Generative AI for Product Managers/Owners","upGrad · May 2025"],["AI For Everyone","DeepLearning.AI"],["Microsoft Azure Fundamentals (AZ-900)","Microsoft"],["Technical Product Management","IIBA · Jul 2022"],["Agile Product Owner Role: Foundations","IIBA · Jul 2022"],["ECBA certification prep","IIBA · Jul 2024"],["Microsoft Certified Professional (MCP)","Microsoft · Nov 2009"],["Dell Certified System Expert (DCSE)","Dell · Jan 2009"]],
+ skills:[["Banking & standards",["CRMNext","Microsoft Dynamics CRM","Core Banking","Open Banking","Base24","NDC","ISO 8583","ISO 20022","SWIFT","ATM","ITM","TCR","PCI DSS","Regulatory Compliance","AML/KYC"]],["Product & delivery tools",["Jira","Confluence","Azure DevOps","MS Project","Figma","Visio","Draw.io","Enterprise Architect","Power BI","Tableau","Advanced Excel"]],["Technology & AI",[".NET","Java","SQL Server","Postman","Open API","Microservices","Azure","Data Pipelines","Microsoft Copilot","GitHub Copilot","ClickUp AI","Notion AI","HOLOBOX"]],["Core competencies",["Product Strategy","Vision & Roadmap","Product Ownership","Backlog Management","Stakeholder Management","Vendor Management","Risk Management","People Management","Business Process Transformation","GenAI Governance"]],["Languages",["English","Hindi"]]],
+ hobbies:[["🍳","Cooking"],["✈️","Travel"],["💻","Technology"],["🔬","Science"],["📷","Photography"],["🕺","Dancing"]]
+};
+/* ============ RENDERING (no need to edit) ============ */
+const $=s=>document.querySelector(s),E=t=>t.replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+const node=n=>`<details><summary><strong>${E(n.t)}</strong><em>${E(n.m||"")}</em></summary><div class="body">${n.d?`<p>${E(n.d)}</p>`:""}${n.tags?`<div class="chips">${n.tags.map(x=>`<span>${E(x)}</span>`).join("")}</div>`:""}${(n.c||[]).map(node).join("")}${n.ph?`<div class="ph">＋ Deep dive coming.</div>`:""}</div></details>`;
+function tg(s,o){document.querySelectorAll(s+" details").forEach(d=>d.open=!!o)}
+document.title=D.name+" — Senior Product Manager • Banking, Cards & Payments, ATM/ITM";
+$("#nb").textContent=D.name;$("#kick").textContent=D.kicker;$("#nm").textContent=D.name;$("#tg").textContent=D.tagline;
+$("#sub").textContent=D.sub;$("#pl").innerHTML=D.pills.map(p=>`<span>${E(p)}</span>`).join("");
+$("#st").innerHTML=D.stats.map(s=>`<div class="stat"><b data-n="${s[0]}" data-a="${s[1]}" data-p="${s[2]}">${s[1]}${s[0]}${s[2]}</b><small>${s[3]}</small></div>`).join("");
+$("#tk").innerHTML=D.journey.map((j,k)=>`<div class="ev" data-k="${k}"><i>${j.i}</i><u></u><b>${E(j.y)}</b><div>${E(j.t)}</div><small style="color:var(--mute)">📍 ${E(j.l)}</small></div>`).join("");
+function show(k){document.querySelectorAll(".ev").forEach((e,i)=>e.classList.toggle("on",i==k));const j=D.journey[k];$("#ed").innerHTML=`<b>${E(j.y)} — ${E(j.t)}</b> · 📍 ${E(j.l)}<br>${E(j.d)}`}
+document.querySelectorAll(".ev").forEach(e=>e.onclick=()=>show(e.dataset.k));show(D.journey.length-1);
+$("#ex").innerHTML=D.domains.map(d=>`<details class="dom"${d.open?" open":""}><summary><span class="ic">${d.i}</span><span><strong>${E(d.t)}</strong><br><small>${E(d.s)} · ${d.caps.length} area${d.caps.length>1?"s":""}</small></span></summary>${d.seg?`<div class="seg">${d.seg.map(g=>`<div class="segc"><b>${E(g[0])}</b>${E(g[1])}</div>`).join("")}</div>`:""}<div class="caps">${d.caps.map(c=>`<details class="cap"><summary><span class="ci">${c.i}</span><strong>${E(c.t)}</strong></summary><div class="cb">${E(c.d)}${c.tags.length?`<div class="chips">${c.tags.map(x=>`<span>${E(x)}</span>`).join("")}</div>`:""}${c.at?`<small>Where: ${E(c.at)}</small>`:""}</div></details>`).join("")}</div></details>`).join("");$("#co").innerHTML=D.companies.map(node).join("");
+$("#ed2").innerHTML=D.edu.map(e=>`<div class="card"><b>${E(e[0])}</b><br><span style="color:var(--mute)">${E(e[1])}</span></div>`).join("");
+$("#ce").innerHTML=D.certs.map(e=>`<div class="card"><b>${E(e[0])}</b><br><span style="color:var(--mute)">${E(e[1])}</span></div>`).join("");
+$("#sk").innerHTML=D.skills.map(g=>`<p style="margin:14px 0 0;color:var(--mute);font-size:14px">${E(g[0])}</p><div class="chips">${g[1].map(x=>`<span>${E(x)}</span>`).join("")}</div>`).join("");
+$("#hb").innerHTML=D.hobbies.map(h=>`<div><i>${h[0]}</i>${E(h[1])}</div>`).join("");
+$("#ct").textContent="Open to Product Leadership roles in banking, fintech and AI-enabled digital products, and to consulting conversations.";
+$("#cc").innerHTML=`<div class="card">✉️ <a href="mailto:${E(D.email)}">${E(D.email)}</a></div><div class="card">📞 ${D.phone?E(D.phone):"<span style='color:var(--mute)'>Phone — coming soon</span>"}</div><div class="card">🔗 <a href="${D.linkedin}" target="_blank" rel="noopener">LinkedIn profile</a></div>`;
+$("#ft").textContent="© "+new Date().getFullYear()+" "+D.name+" · Banking • Fintech • Product Leadership";
+$("#th").onclick=()=>{const r=document.documentElement,d=r.dataset.theme?r.dataset.theme=="dark":matchMedia("(prefers-color-scheme:dark)").matches;r.dataset.theme=d?"light":"dark"};
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.1});
+document.querySelectorAll(".rv").forEach(e=>io.observe(e));
+document.querySelectorAll("[data-n]").forEach(b=>{const n=+b.dataset.n,p=b.dataset.p;let v=0;const t=setInterval(()=>{v+=Math.max(1,Math.ceil(n/30));if(v>=n){v=n;clearInterval(t)}b.textContent=b.dataset.a+v+p},40)});
+</script>
+</body>
+</html>
